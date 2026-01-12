@@ -1,6 +1,7 @@
 import React from 'react'
-import LandingBG from './landingBG'
-import LandingText from './landingText'
+import LandingBG from './LandingBG'
+import LandingText from './LandingText'
+
 
 const Landing = () => {
   return (
