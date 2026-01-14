@@ -3,11 +3,11 @@ import React from 'react'
 const LandingBG = () => {
   return (
     <div>
-      <div className='absolute -z-10  p-10'>
-      <div className=' flex items-start justify-between px-15'>
-        <div className='h-72 w-72'><img className='h-full w-full' src="rocket.webp" alt="" /></div>
-        <p className='text-gray-600 text-sm'>Igniting the spark of Inspiration</p>
-        <div className='flex flex-col items-end gap-2'>
+      <div className='absolute -z-10  px-10'>
+      <div className=' flex  justify-between'>
+        <div className='h-72 w-72 p-5'><img className='h-full w-full object-center rounded-t-xl rounded-b-full' src="earth.png" alt="" /></div>
+        <p className='text-gray-600 mt-20 text-sm'>Igniting the spark of Inspiration</p>
+        <div className='flex flex-col items-end mt-20 gap-2'>
             <h2 className='bg-purple-600 px-3 py-1 text-amber-100 rounded-full'>via dlla Creativita, 23</h2>
             <h2 className='bg-purple-600 px-3 py-1 text-amber-100 rounded-full'>20121 Milano</h2>
         </div>
